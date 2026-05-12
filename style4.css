@@ -43,3 +43,50 @@ h1 {
   font-size: 1.75em;
   font-weight: bold;
 }
+@media (max-width: 600px) {
+  form {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 15px;
+  }
+  .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .input-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .input-2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #textBox {
+    width: 80%;
+    font-size: 1.5em;
+  }
+
+  button {
+    width: 80%;
+    font-size: 1.1em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  label {
+    font-size: 1em;
+  }
+
+  #result {
+    font-size: 1.3em;
+  }
+}

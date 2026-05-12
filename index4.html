@@ -10,14 +10,17 @@
     <form>
       <h1 class="head-1">Temperature Conversion</h1>
       <input type="number" id="textBox" value="0" /><br />
-
-      <input type="radio" id="toFahrenheit" name="unit" />
-      <label for="toFarenheit">Celsius → Farenheit</label><br />
-
-      <input type="radio" id="toCelsius" name="unit" />
-      <label for="toCelsius"> Farenheit → Celsius</label><br />
-
-      <button type="button" onclick="convert()">submit</button>
+      <div class="input">
+        <div class="input-1">
+          <input type="radio" id="toFahrenheit" name="unit" />
+          <label for="toFarenheit">Celsius → Farenheit</label><br />
+        </div>
+        <div class="input-2">
+          <input type="radio" id="toCelsius" name="unit" />
+          <label for="toCelsius"> Farenheit → Celsius</label><br />
+        </div>
+        <button type="button" onclick="convert()">submit</button>
+      </div>
       <p id="result"></p>
     </form>
 
